@@ -23,3 +23,6 @@ data/processed/*
 # Vector indexes
 *.faiss
 *.pkl
+
+# Pytest temporary files
+.pytest_tmp/
