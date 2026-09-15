@@ -29,7 +29,20 @@ def create_agent(retriever, memory, data_file_path=None):
             retriever,
         )
 
-        return json.dumps(results)
+        # Return only the information needed by the agent.
+        # Internal chunk IDs and retrieval distances are not exposed
+        # in the final user-facing response.
+        cleaned_results = []
+
+        for result in results:
+            cleaned_results.append(
+                {
+                    "page_number": result["page_number"],
+                    "text": result["text"],
+                }
+            )
+
+        return json.dumps(cleaned_results)
 
     @tool
     def analyze_data(operation: str) -> str:
@@ -91,6 +104,8 @@ def create_agent(retriever, memory, data_file_path=None):
             "When answering questions about an uploaded document or dataset, "
             "base factual claims on the information returned by the tools. "
             "Do not invent, assume, or infer unsupported facts. "
+            "Do not expose internal tool metadata, chunk IDs, retrieval "
+            "distances, or other implementation details to the user. "
             "If the available tool output does not contain enough information "
             "to answer the question, clearly say that the information is not available. "
             "For current or time-sensitive information, use the web search tool."
