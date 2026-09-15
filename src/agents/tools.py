@@ -27,6 +27,7 @@ def data_analysis_tool(
     - statistics
     - missing_values
     - correlations
+    - duplicates
     """
 
     data = pd.read_csv(file_path)
@@ -52,9 +53,17 @@ def data_analysis_tool(
 
         return numeric_data.corr().to_string()
 
+    if operation == "duplicates":
+        duplicate_count = data.duplicated().sum()
+
+        return (
+            f"Duplicate rows: {duplicate_count}"
+        )
+
     return (
         "Unsupported operation. "
-        "Use: overview, statistics, missing_values, or correlations."
+        "Use: overview, statistics, missing_values, "
+        "correlations, or duplicates."
     )
 
 

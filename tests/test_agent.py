@@ -82,3 +82,11 @@ def test_conversation_memory():
     memory.clear()
 
     assert memory.get_messages() == []
+
+def test_data_analysis_duplicates():
+    result = data_analysis_tool(
+        CSV_PATH,
+        "duplicates",
+    )
+
+    assert "Duplicate rows: 0" in result
