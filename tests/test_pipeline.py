@@ -6,7 +6,7 @@ from src.retrieval.retriever import Retriever
 from src.pipeline import RAGPipeline
 
 
-PDF_PATH = "data/raw/test_document.pdf"
+PDF_PATH = "tests/fixtures/test_document.pdf"
 
 
 def test_rag_pipeline():

@@ -9,9 +9,8 @@ from src.agents.tools import web_search_tool
 from src.agents.memory import ConversationMemory
 
 
-PDF_PATH = "data/raw/test_document.pdf"
-CSV_PATH = "data/raw/test_data.csv"
-
+PDF_PATH = "tests/fixtures/test_document.pdf"
+CSV_PATH = "tests/fixtures/test_data.csv"
 
 def test_document_search_tool():
     pages = load_pdf(PDF_PATH)

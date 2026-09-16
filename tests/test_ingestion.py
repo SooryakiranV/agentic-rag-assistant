@@ -3,7 +3,7 @@ from src.ingestion.chunker import chunk_pages
 from src.ingestion.embedder import Embedder
 
 
-PDF_PATH = "data/raw/test_document.pdf"
+PDF_PATH = "tests/fixtures/test_document.pdf"
 
 
 def test_pdf_loader():

@@ -5,7 +5,7 @@ from src.retrieval.vector_store import FAISSVectorStore
 from src.retrieval.retriever import Retriever
 
 
-PDF_PATH = "data/raw/test_document.pdf"
+PDF_PATH = "tests/fixtures/test_document.pdf"
 
 
 def test_retriever():
