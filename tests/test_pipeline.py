@@ -4,6 +4,7 @@ from src.ingestion.embedder import Embedder
 from src.retrieval.vector_store import FAISSVectorStore
 from src.retrieval.retriever import Retriever
 from src.pipeline import RAGPipeline
+from unittest.mock import patch
 
 
 PDF_PATH = "tests/fixtures/test_document.pdf"
@@ -21,7 +22,8 @@ def test_rag_pipeline():
     vector_store.add_embeddings(embeddings)
 
     retriever = Retriever(chunks, vector_store)
-    pipeline = RAGPipeline(retriever)
+    with patch("src.pipeline.Groq"):
+        pipeline = RAGPipeline(retriever)
 
     results = pipeline.retrieve_context(
         "What programming languages are mentioned?",
