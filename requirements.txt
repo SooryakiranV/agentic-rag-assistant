@@ -1,0 +1,14 @@
+pymupdf
+langchain-text-splitters
+sentence-transformers
+faiss-cpu
+groq
+python-dotenv
+langchain-groq
+langgraph
+langchain-core
+pandas
+ddgs
+streamlit
+fastapi
+uvicorn
