@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "question": "What programming languages are mentioned in the document?"
+    },
+    {
+        "id": 2,
+        "question": "What technical skills are listed?"
+    },
+    {
+        "id": 3,
+        "question": "What is the person's educational background?"
+    },
+    {
+        "id": 4,
+        "question": "What work experience is mentioned?"
+    },
+    {
+        "id": 5,
+        "question": "What software tools are listed?"
+    },
+    {
+        "id": 6,
+        "question": "What AI and machine learning skills are mentioned?"
+    },
+    {
+        "id": 7,
+        "question": "What programming frameworks are mentioned?"
+    },
+    {
+        "id": 8,
+        "question": "What cloud certifications are listed?"
+    },
+    {
+        "id": 9,
+        "question": "What backend technologies are mentioned?"
+    },
+    {
+        "id": 10,
+        "question": "What databases or database technologies are mentioned?"
+    },
+    {
+        "id": 11,
+        "question": "What degree is mentioned in the document?"
+    },
+    {
+        "id": 12,
+        "question": "What companies has the person worked for?"
+    },
+    {
+        "id": 13,
+        "question": "What role did the person have at Accenture?"
+    },
+    {
+        "id": 14,
+        "question": "What role or experience is mentioned at Tata Elxsi?"
+    },
+    {
+        "id": 15,
+        "question": "Which Python-related technologies are mentioned?"
+    },
+    {
+        "id": 16,
+        "question": "What machine learning frameworks are listed?"
+    },
+    {
+        "id": 17,
+        "question": "What tools are mentioned for development or programming?"
+    },
+    {
+        "id": 18,
+        "question": "What certifications are listed in the document?"
+    },
+    {
+        "id": 19,
+        "question": "Does the document mention experience with APIs?"
+    },
+    {
+        "id": 20,
+        "question": "Summarize the person's technical profile."
+    }
+]

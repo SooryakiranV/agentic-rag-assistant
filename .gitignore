@@ -26,3 +26,7 @@ data/processed/*
 
 # Pytest temporary files
 .pytest_tmp/
+
+# Evaluation outputs
+data/*_results.csv
+data/evaluation_scored.csv

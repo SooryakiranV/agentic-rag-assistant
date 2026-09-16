@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "expected": ["Python", "JavaScript", "Java", "SQL/PL-SQL", "R", "C", "C++"]
+    },
+    {
+        "id": 2,
+        "expected": ["Python", "C", "C++", "R", "SQL"]
+    },
+    {
+        "id": 3,
+        "expected": ["MSc Computing", "AI", "Dublin City University"]
+    },
+    {
+        "id": 4,
+        "expected": ["Accenture", "Tata Elxsi"]
+    },
+    {
+        "id": 5,
+        "expected": ["Linux", "VS Code", "Google Colab", "Jupyter", "GitHub"]
+    },
+    {
+        "id": 6,
+        "expected": ["Neural Networks", "Deep Learning", "NLP", "LLM Integration", "Prompt Engineering"]
+    },
+    {
+        "id": 7,
+        "expected": ["Pandas", "NumPy", "TensorFlow", "Keras", "PyTorch"]
+    },
+    {
+        "id": 8,
+        "expected": ["Google Cloud Digital Leader", "Google Associate Cloud Engineer", "Google Associate Data Practitioner"]
+    },
+    {
+        "id": 9,
+        "expected": ["Flask", "REST APIs", "Oracle APEX"]
+    },
+    {
+        "id": 10,
+        "expected": ["SQL", "Oracle APEX", "PL-SQL"]
+    },
+    {
+        "id": 11,
+        "expected": [
+            "MSc Computing",
+            "B.Tech in Computer Science & Engineering"
+        ]
+    },
+    {
+        "id": 12,
+        "expected": ["Accenture", "Tata Elxsi"]
+    },
+    {
+        "id": 13,
+        "expected": ["Associate Software Engineer", "Accenture"]
+    },
+    {
+        "id": 14,
+        "expected": ["Internship", "Tata Elxsi"]
+    },
+    {
+        "id": 15,
+        "expected": ["Python", "Pandas", "NumPy", "TensorFlow", "Keras", "PyTorch"]
+    },
+    {
+        "id": 16,
+        "expected": ["TensorFlow", "Keras", "PyTorch"]
+    },
+    {
+        "id": 17,
+        "expected": ["Linux", "VS Code", "Google Colab", "Jupyter", "GitHub"]
+    },
+    {
+        "id": 18,
+        "expected": ["Google Cloud Digital Leader", "Google Associate Cloud Engineer", "Google Associate Data Practitioner"]
+    },
+    {
+        "id": 19,
+        "expected": ["REST APIs"]
+    },
+    {
+        "id": 20,
+        "expected": [
+            "Python",
+            "Pandas",
+            "Scikit-learn",
+            "Machine Learning",
+            "Dublin City University",
+            "MSc Computing"
+        ]
+    }
+]
