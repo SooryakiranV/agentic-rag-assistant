@@ -12,3 +12,4 @@ ddgs
 streamlit
 fastapi
 uvicorn
+pytest
