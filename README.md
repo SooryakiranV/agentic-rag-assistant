@@ -687,11 +687,6 @@ These are intentionally outside the current implementation.
 
 ---
 
-# Author
-
-**Sooryakiran Vinod**
-
-MSc Computing (Artificial Intelligence)
 
 ---
 
