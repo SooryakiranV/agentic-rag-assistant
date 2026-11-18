@@ -10,6 +10,4 @@ langchain-core
 pandas
 ddgs
 streamlit
-fastapi
-uvicorn
 pytest
